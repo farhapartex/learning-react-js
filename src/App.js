@@ -7,9 +7,15 @@ import Hello from './components/Hello';
 function App() {
   return (
     <div className="App">
-      {/* <Greet></Greet>
-      <Welcome></Welcome> */}
-      <Hello></Hello>
+      <Greet name="Dhaka">
+        <p>This is capital of Bangladesh</p>
+      </Greet>
+      <Greet name="Sunamganj">
+        <button>Have a Visit</button>
+      </Greet>
+      <Greet name="Sylhet"></Greet>
+      {/* <Welcome></Welcome> */}
+      {/* <Hello></Hello> */}
     </div>
   );
 }
