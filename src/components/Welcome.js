@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 
 class Welcome extends Component{
     render(){
-        return <h1>Hello Nazmul, Class Component</h1>
+        return <h1>{this.props.name} is from {this.props.location}</h1>
     }
 }
 

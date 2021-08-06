@@ -7,14 +7,16 @@ import Hello from './components/Hello';
 function App() {
   return (
     <div className="App">
-      <Greet name="Dhaka">
+      {/* <Greet name="Dhaka">
         <p>This is capital of Bangladesh</p>
       </Greet>
       <Greet name="Sunamganj">
         <button>Have a Visit</button>
       </Greet>
-      <Greet name="Sylhet"></Greet>
-      {/* <Welcome></Welcome> */}
+      <Greet name="Sylhet"></Greet> */}
+      <Welcome name="Hasan" location="Dhaka"></Welcome>
+      <Welcome name="Niloy" location="Sylhet"></Welcome>
+      <Welcome name="Jannat" location="Sunamganj"></Welcome>
       {/* <Hello></Hello> */}
     </div>
   );
